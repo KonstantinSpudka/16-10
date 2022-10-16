@@ -1,3 +1,60 @@
 * {
   box-sizing: border-box;
 }
+
+article {
+  margin: 20px;
+  width: 300px;
+  padding: 30px;
+  background: linear-gradient(to right, #333333, #555555);
+  border-radius: 5px;
+  color: gold;
+}
+.ordersNumbers {
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.circle2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0 3;
+}
+i {
+  font-size: 10px;
+  padding-left: 200px;
+}
+.wrapper {
+  display: flex;
+  justify-content: end;
+  margin: -25px -15px;
+  opacity: 0.5;
+}
+
+.gold {
+  background-color: gold;
+  border: 1px solid gold;
+}
+.red {
+  background-color: red;
+  border: 1px solid red;
+}
+.cirkle {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  bottom: 20px;
+  right: 15px;
+  margin-right: -10px;
+  border-radius: 50%;
+}
